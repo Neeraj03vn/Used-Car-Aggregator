@@ -15,9 +15,6 @@ The project is deployed on AWS EC2 and uses Crontab for automated background scr
 5. Crontab automation for scheduled scraping
 6. Logging and error handling for reliability
 
-# System Architecture
-![Alt text]("C:\Users\Neeraj V N\Downloads\Used-Car-Diagram.png")
-
 # Tech Stack
 1. Python: Streamlit, Pandas, Requests, BeautifulSoup
 2. Google Sheets API: gspread, oauth2client
