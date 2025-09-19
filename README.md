@@ -25,7 +25,7 @@ The project is deployed on AWS EC2 and uses Crontab for automated background scr
 # Setup Instructions
 
 1. Clone Repository
-  -> git clone https://github.com/<your-username>/used-car-aggregator.git
+  -> git clone https://github.com/Neeraj03vn/Used-Car-Aggregator.git
   -> cd used-car-aggregator
 
 2. Create Virtual Environment
