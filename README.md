@@ -65,20 +65,18 @@ pip install -r requirements.txt
 # Project Structure
 
 Project Files
-├── app.py                # Streamlit dashboard
-├── connectors/           # Scrapers
-│   ├── cars24.py
-│   ├── olx.py
-│   ├── cardekho.py
-├── normalize.py          # Normalization utils
-├── sheets.py             # Google Sheets connector
-├── Scraping_runner.py    # Background scraper
-├── requirements.txt      # Dependencies
-├── scraper.log           # Log file
-├── service_account.json  # Google Sheets credentials (ignored in .gitignore)
-├── diagram.png           # Architecture diagram
-└── README.md
-
+  1. app.py                -- Streamlit dashboard
+  2. connectors/           -- Scrapers
+    i. cars24.py
+   ii. olx.py
+  iii. cardekho.py
+  3. normalize.py          -- Normalization utils
+  4. sheets.py             -- Google Sheets connector
+  5. Scraping_runner.py    -- Background scraper
+  6. requirements.txt      -- Dependencies
+  7. scraper.log           -- Log file
+  8. service_account.json  -- Google Sheets credentials (ignored in .gitignore)
+     
 # Future Enhancements
 1. Add support for more platforms (Spinny, Droom, etc.)
 2. Add HTTPS using Let’s Encrypt (Certbot)
